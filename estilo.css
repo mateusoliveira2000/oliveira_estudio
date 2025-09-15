@@ -7,7 +7,7 @@
     --bkg-color4-mobile: #303031;
 }
 
-
+/*MOBILE*/
 #espaco3{
     width: 0px; height: 0px;
 }
@@ -39,7 +39,15 @@
 #botton{
     width: 0px; height: 0px;
 }
-
+a{
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+a:focus{
+    outline: none;
+    box-shadow: none; 
+}
+/*MOBILE*/
 
 
 body {
@@ -64,7 +72,7 @@ body {
 
 #text {
     margin-left: auto; margin-right: auto;
-    width: 100%; height: auto;
+    width: 100%; height: 250px;
     align-items: center;
     align-self: center;
     align-content: center;
@@ -106,7 +114,7 @@ body {
     color: #00000000;
     width: 95%; 
     box-sizing: border-box;
-    padding-left: 5px;
+    padding-left: 20px;
     font-size: 23px;
     font-family: Raleway;
     font-weight: 200;
@@ -115,6 +123,7 @@ body {
     letter-spacing: 2px;
     transition: all 0.4s ease-out;
     border-left: solid 10px;
+    
 }
 .descri:hover{
     color: var(--letra);
@@ -124,29 +133,30 @@ body {
 
 #page {
     margin-left: auto; margin-right: auto;
-    width: 100%; height: 250px;
+    width: 100%; height: 150px;
     text-align: center;
     align-content: center;
 }
 #link {
-    margin-left: auto; margin-right: auto;
-    padding: 25px;
-    width: 20%; 
-    font-family: Raleway;
-    color: #ffffff;
-    background-color: #606060;
+    text-align: center;
+    align-content: center;
+    width: 20%; height: 10%;
     font-size: 20px;
+    padding: 15px 30px 15px 30px;
+    background-color: var(--bkg-color4-mobile);
+    animation: 0.9s linear 1s infinite alternate move;
+    border: solid 3px #8f7a64;
+    border-radius: 5px;
+    font-family: Raleway;
     text-decoration: none;
-    border-radius: 25px 8px;
-    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
-#link:hover {
-    border-radius: 8px 25px;
-    color: #75736f;
-    background-color: #ffffff;
-    transition: ease-in-out 1s;
-    animation: pulse 2s infinite; 
-    font-weight: 500;
+@keyframes move{
+    from{
+        border-radius: 30px;
+        border: solid 3px #566b67 
+}
 }
 #link:focus {
     outline: none;
@@ -165,10 +175,9 @@ body {
     align-items: center;
 }
 #whats{
-    width: 15%;
+    width: 30%;
     text-align: center;
     color: #ffffff;
-    background-color: #12c521;
     border-radius: 30px;
     margin-left: auto; margin-right: auto;
     padding: 20px;
@@ -176,8 +185,9 @@ body {
     text-decoration: none; text-transform: uppercase;
 }
 #whats:hover {
-    transform: scale(1.1);
+    background-color: #12c521;
     transition: 1s;
+    letter-spacing: 10px;
 }
 #info{
     margin-left: auto; margin-right: auto;
@@ -225,9 +235,9 @@ body {
 }
 
 #link {
-    width: 20%; height: 10%;
-    font-size: 30px;
-    padding: 10px 25px 10px 25px
+    width: 30%; height: 10%;
+    font-size: 20px;
+    padding: 20px 40px 
 }
 
 #contato{
@@ -236,7 +246,7 @@ body {
 
 #whats{
     width: 30%;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #info{
@@ -249,11 +259,17 @@ body {
 }
 }
 
+@media (max-width:1300px ){
+    #whats{
+        width: 40%;
+    }
+}
+
 /* RESPOSIVIDADE MOBILE PRINCIPAL: 1080px*/
 @media (max-width:1080px ){
 
 body{
-    background-image: url(./Imagens/fundo.gif);
+    background-image: url(./Imagens/fundo-mobile.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -356,8 +372,16 @@ body{
     font-size: 30px;
     padding: 15px 30px 15px 30px;
     background-color: var(--bkg-color4-mobile);
+    animation: 0.9s linear 1s infinite alternate move;
+    border: solid 3px #e49a50;
+    border-radius: 5px;
 }
-
+@keyframes move{
+    from{
+        border-radius: 30px;
+        border: solid 3px #00ffcc 
+}
+}
 
 #pe{
     background-color: var(--bkg-color4-mobile);
@@ -371,9 +395,21 @@ body{
 }
 #whats{
     width: 30%;
-    font-size: 20px;
-    background-color: var(--botton-mobile);
-}
+    text-align: center;
+    color: #ffffff;
+    background-color: #12c52100;
+    border-radius: 30px;
+    margin-left: auto; margin-right: auto;
+    padding: 10px;
+    font-family: Mulish; font-weight: 800; font-size: 20px;
+    text-decoration: none; text-transform: uppercase;
+    }
+#whats:hover {
+    color: #1cff24;
+    background-color: #12c52100;
+    transition: 1s;
+    letter-spacing: 0px;
+    }
 #info{
     color: var(--letra);
     font-size: 20px;
