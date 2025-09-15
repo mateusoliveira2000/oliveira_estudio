@@ -39,7 +39,7 @@
     justify-content: space-around;
 }
 .grid{
-    background-color: #000000;
+    background-color: #00000000;
     
 }
 .espaco-grup{
@@ -84,7 +84,7 @@ body {
 }
 #text {
     margin-left: auto; margin-right: auto;
-    width: 100%; height: auto;
+    width: auto; height: auto;
     align-items: center;
     align-self: center;
     align-content: center;
@@ -95,11 +95,11 @@ body {
     width: 100%; height: auto;
     margin-left: auto; margin-right: auto;
     margin-top: 0px; margin-bottom: 0px;
-    font-size: 560%;
+    font-size: 80px;
     align-content: center;
     font-family: Raleway;
     text-transform: uppercase;
-    letter-spacing: 39px;
+    letter-spacing: 30px;
     font-weight: 300;
 }
 #sub {
@@ -165,7 +165,7 @@ body {
 }
 
 #grid1{
-    background-image: url(../Imagens/galeria/modelo-pb.jpeg);
+    background-image: url(../Imagens/galeria/modelo-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -174,14 +174,14 @@ body {
 
 }
 #grid1:hover{
-    background-image: url(../Imagens/galeria/modelo.jpg);
+    background-image: url(../Imagens/galeria/modelo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 410px; height: 600px;
 }
 #grid2{
-    background-image: url(../Imagens/galeria/casal-pb.jpg);
+    background-image: url(../Imagens/galeria/casal-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -189,14 +189,14 @@ body {
     transition: 0.5s;
 }
 #grid2:hover{
-    background-image: url(../Imagens/galeria/casal.jpeg);
+    background-image: url(../Imagens/galeria/casal.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 400px; height: 600px;
 }
 #grid3{
-    background-image: url(../Imagens/galeria/sa1.jpg);
+    background-image: url(../Imagens/galeria/sa1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -204,7 +204,7 @@ body {
     transition: 0.5s;
 }
 #grid3:hover{
-    background-image: url(../Imagens/galeria/sa4.jpg);
+    background-image: url(../Imagens/galeria/sa4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -214,7 +214,7 @@ body {
 
 /*GRUPO - 2*/
 #grid6{
-    background-image: url(../Imagens/galeria/hotel-pb.jpg);
+    background-image: url(../Imagens/galeria/hotel-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -222,14 +222,14 @@ body {
     transition: 0.5s;
 }
 #grid6:hover{
-    background-image: url(../Imagens/galeria/hotel.jpeg);
+    background-image: url(../Imagens/galeria/hotel.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 550px; height: 600px;
 }
 #grid7{
-    background-image: url(../Imagens/galeria/thomas-pb.jpg);
+    background-image: url(../Imagens/galeria/thomas-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -237,7 +237,7 @@ body {
     transition: 0.5s;
 }
 #grid7:hover{
-    background-image: url(../Imagens/galeria/thomas.jpeg);
+    background-image: url(../Imagens/galeria/thomas.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -248,7 +248,7 @@ body {
 
 /*GRUPO - 3*/
 #grid10{
-    background-image: url(../Imagens/galeria/jt1-pb.jpg);
+    background-image: url(../Imagens/galeria/jt1-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -256,14 +256,14 @@ body {
     transition: 0.5s;
 }
 #grid10:hover{
-    background-image: url(../Imagens/galeria/jt1.jpg);
+    background-image: url(../Imagens/galeria/jt1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 850px; height: 600px;
 }
 #grid11{
-    background-image: url(../Imagens/galeria/senhora.jpg);
+    background-image: url(../Imagens/galeria/senhora.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -271,7 +271,7 @@ body {
     transition: 0.5s;
 }
 #grid11:hover{
-    background-image: url(../Imagens/galeria/senhora1.jpg);
+    background-image: url(../Imagens/galeria/senhora1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -281,7 +281,7 @@ body {
 
 /*GRUPO - 4*/
 #grid14{
-    background-image: url(../Imagens/galeria/modelo2-pb.jpg);
+    background-image: url(../Imagens/galeria/modelo2-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -289,14 +289,14 @@ body {
     transition: 0.5s;
 }
 #grid14:hover{
-    background-image: url(../Imagens/galeria/modelo2.jpg);
+    background-image: url(../Imagens/galeria/modelo2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 400px; height: 600px;
 }
 #grid15{
-    background-image: url(../Imagens/galeria/nature-pb.jpg);
+    background-image: url(../Imagens/galeria/nature-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -304,14 +304,14 @@ body {
     transition: 0.5s;
 }
 #grid15:hover{
-    background-image: url(../Imagens/galeria/nature.JPG);
+    background-image: url(../Imagens/galeria/nature.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 400px; height: 600px;
 }
 #grid16{
-    background-image: url(../Imagens/galeria/ls5.jpg);
+    background-image: url(../Imagens/galeria/ls5.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -319,7 +319,7 @@ body {
     transition: 0.5s;
 }
 #grid16:hover{
-    background-image: url(../Imagens/galeria/ls6.jpg);
+    background-image: url(../Imagens/galeria/ls6.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -331,7 +331,7 @@ body {
 /*GRUPO - 5*/
 #grid18{
     margin-left: auto; margin-right: auto;
-    background-image: url(../Imagens/galeria/praca-pb.jpg);
+    background-image: url(../Imagens/galeria/praca-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -340,7 +340,7 @@ body {
 }
 #grid18:hover{
     margin-left: auto; margin-right: auto;
-    background-image: url(../Imagens/galeria/praca.JPG);
+    background-image: url(../Imagens/galeria/praca.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -351,7 +351,7 @@ body {
 
 /*GRUPO - 6*/
 #grid22{
-    background-image: url(../Imagens/galeria/house-pb.jpg);
+    background-image: url(../Imagens/galeria/house-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -359,14 +359,14 @@ body {
     transition: 0.5s;
 }
 #grid22:hover{
-    background-image: url(../Imagens/galeria/house.jpg);
+    background-image: url(../Imagens/galeria/house.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 400px; height: 600px;
 }
 #grid23{
-    background-image: url(../Imagens/galeria/ej.jpg);
+    background-image: url(../Imagens/galeria/ej.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -374,7 +374,7 @@ body {
     transition: 0.5s;
 }
 #grid23:hover{
-    background-image: url(../Imagens/galeria/ej1.jpg);
+    background-image: url(../Imagens/galeria/ej1.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 850px; height: 600px;
@@ -383,7 +383,7 @@ body {
 
 /*GRUPO - 7*/
 #grid26{
-    background-image: url(../Imagens/galeria/centro.jpg);
+    background-image: url(../Imagens/galeria/centro.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -391,14 +391,14 @@ body {
     transition: 0.5s;
 }
 #grid26:hover{
-    background-image: url(../Imagens/galeria/pref-pb.jpg);
+    background-image: url(../Imagens/galeria/pref-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 500px; height: 600px;
 }
 #grid27{
-    background-image: url(../Imagens/galeria/rio-pb.jpg);
+    background-image: url(../Imagens/galeria/rio-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -406,7 +406,7 @@ body {
     transition: 0.5s;
 }
 #grid27:hover{
-    background-image: url(../Imagens/galeria/rio.jpg);
+    background-image: url(../Imagens/galeria/rio.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 760px; height: 600px;
@@ -415,7 +415,7 @@ body {
 
 /*GRUPO - 8*/
 #grid30{
-    background-image: url(../Imagens/galeria/casal2-pb.jpg);
+    background-image: url(../Imagens/galeria/casal2-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -423,14 +423,14 @@ body {
     transition: 0.5s;
 }
 #grid30:hover{
-    background-image: url(../Imagens/galeria/casal2.jpg);
+    background-image: url(../Imagens/galeria/casal2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 400px; height: 600px;
 }
 #grid31{
-    background-image: url(../Imagens/galeria/modelo1-pb.jpg);
+    background-image: url(../Imagens/galeria/modelo1-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -438,14 +438,14 @@ body {
     transition: 0.5s;
 }
 #grid31:hover{
-    background-image: url(../Imagens/galeria/modelo1.jpg);
+    background-image: url(../Imagens/galeria/modelo1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 400px; height: 600px;
 }
 #grid32{
-    background-image: url(../Imagens/galeria/ls7.jpg);
+    background-image: url(../Imagens/galeria/ls7.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -453,7 +453,7 @@ body {
     transition: 0.5s;
 }
 #grid32:hover{
-    background-image: url(../Imagens/galeria/ls8.jpg);
+    background-image: url(../Imagens/galeria/ls8.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -463,7 +463,7 @@ body {
 
 /*GRUPO - 9*/
 #grid34{
-    background-image: url(../Imagens/galeria/ls2.jpg);
+    background-image: url(../Imagens/galeria/ls2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -471,14 +471,14 @@ body {
     transition: 0.5s;
 }
 #grid34:hover{
-    background-image: url(../Imagens/galeria/ls1.jpg);
+    background-image: url(../Imagens/galeria/ls1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 630px; height: 400px;
 }
 #grid35{
-    background-image: url(../Imagens/galeria/jt-pb.jpg);
+    background-image: url(../Imagens/galeria/jt-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -486,7 +486,7 @@ body {
     transition: 0.5s;
 }
 #grid35:hover{
-    background-image: url(../Imagens/galeria/jt.jpg);
+    background-image: url(../Imagens/galeria/jt.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 630px; height: 400px;
@@ -495,7 +495,7 @@ body {
 
 /*GRUPO - 10*/
 #grid38{
-    background-image: url(../Imagens/galeria/cat1-pb.jpg);
+    background-image: url(../Imagens/galeria/cat1-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -503,14 +503,14 @@ body {
     transition: 0.5s;
 }
 #grid38:hover{
-    background-image: url(../Imagens/galeria/cat1.jpg);
+    background-image: url(../Imagens/galeria/cat1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 410px; height: 600px;
 }
 #grid39{
-    background-image: url(../Imagens/galeria/paisa-pb.jpg);
+    background-image: url(../Imagens/galeria/paisa-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -518,14 +518,14 @@ body {
     transition: 0.5s;
 }
 #grid39:hover{
-    background-image: url(../Imagens/galeria/paisa.JPG);
+    background-image: url(../Imagens/galeria/paisa.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 410px; height: 600px;
 }
 #grid40{
-    background-image: url(../Imagens/galeria/cat-pb.jpg);
+    background-image: url(../Imagens/galeria/cat-pb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -533,7 +533,7 @@ body {
     transition: 0.5s;
 }
 #grid40:hover{
-    background-image: url(../Imagens/galeria/cat.jpg);
+    background-image: url(../Imagens/galeria/cat.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -543,7 +543,7 @@ body {
 
 /*GRUPO - 11*/
 #grid42{
-    background-image: url(../Imagens/galeria/ls4a.jpg);
+    background-image: url(../Imagens/galeria/ls4a.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -551,14 +551,14 @@ body {
     transition: 0.5s;
 }
 #grid42:hover{
-    background-image: url(../Imagens/galeria/ls4.jpg);
+    background-image: url(../Imagens/galeria/ls4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 630px; height: 400px;
 }
 #grid43{
-    background-image: url(../Imagens/galeria/sa3.jpg);
+    background-image: url(../Imagens/galeria/sa3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -566,7 +566,7 @@ body {
     transition: 0.5s;
 }
 #grid43:hover{
-    background-image: url(../Imagens/galeria/sa2.jpg);
+    background-image: url(../Imagens/galeria/sa2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 630px; height: 400px;
