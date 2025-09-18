@@ -64,10 +64,10 @@ a:focus{
     width: 0px; height: 0px;
 }
 body {
-    background-color: var(--bkg-color1-mobile);
-    background-image: url(../Imagens/capa-pagina.png);
+    background-color: #000000;
+    background-image: url(../Imagens/fundo-mobile.svg);
     background-attachment: fixed;
-
+    background-size: cover;
     background-size: auto;
     margin: 0%;
 }
@@ -138,7 +138,7 @@ body {
     padding: 15px 30px 15px 30px;
     background-color: var(--bkg-color4-mobile);
     animation: 0.9s linear 1s infinite alternate move;
-    border: solid 3px #8f7a64;
+    border: solid 3px #3d3d3d;
     border-radius: 5px;
     font-family: Raleway;
     text-decoration: none;
@@ -148,7 +148,7 @@ body {
 @keyframes move{
     from{
         border-radius: 50px 2px 2px 50px;
-        border: solid 3px #566b67 
+        border: solid 3px #626262 
 }
 }
 #link:focus {
@@ -624,6 +624,14 @@ body {
 
 /* RESPOSIVIDADE */
 @media (max-width:1180px ){
+body{
+    background-color: #000000;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
 
 #espaco1{
     margin-left: auto; margin-right: auto;
@@ -638,8 +646,9 @@ body {
     letter-spacing: 20px;
 }
 #sub1{
-    font-size: 25px;
-    letter-spacing: 5px;
+    font-size: 35px;
+    letter-spacing: 50px;
+    font-weight: 600;
 }
 #page1 {
     margin-left: auto; margin-right: auto;
@@ -651,11 +660,11 @@ body {
     text-align: center;
     align-content: center;
     width: 20%; height: 10%;
-    font-size: 20px;
+    font-size: 30px;
     padding: 15px 30px 15px 30px;
     background-color: var(--bkg-color4-mobile);
     animation: 0.9s linear 1s infinite alternate move;
-    border: solid 3px #8f7a64;
+    border: solid 3px #626262;
     border-radius: 5px;
     font-family: Raleway;
     text-decoration: none;
@@ -882,8 +891,9 @@ body {
         letter-spacing: 15px;
     }
 #sub1{
-        font-size: 25px;
-        letter-spacing: 15px;
+        font-size: 30px;
+        letter-spacing: 25px;
+        font-weight: 500;
     }
 
 #link1{
@@ -941,7 +951,8 @@ body {
     }
 #sub1{
         font-size: 15px;
-        letter-spacing: 10px;
+        letter-spacing: 20px;
+        font-weight: 600;
     }
 
 #link1{
@@ -1000,8 +1011,9 @@ body {
         letter-spacing: 5px;
     }
 #sub1{
-        font-size: 10px;
-        letter-spacing: 5px;
+        font-size: 15px;
+        letter-spacing: 10px;
+        font-weight: 500;
     }
 
 #link1{

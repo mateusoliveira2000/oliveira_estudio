@@ -52,7 +52,7 @@ a:focus{
 
 body {
     background-color: #000000;
-    background-image: url(./Imagens/fundo.png);
+    background-image: url(../Imagens/fundo-mobile.svg);
     background-size: cover;
     margin: 0%;
 }
@@ -109,25 +109,45 @@ body {
     margin-left: auto; margin-right: auto;
 }
 
-
+.grup{
+    height: 250px;
+}
 .descri {
-    color: #00000000;
-    width: 95%; 
+    background-image: url(../Imagens/info.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: none;
+    width: 82%; height: 88%;
     box-sizing: border-box;
-    padding-left: 20px;
-    font-size: 23px;
-    font-family: Raleway;
     font-weight: 200;
     margin-left: auto; margin-right: auto;
     align-content: center;
+    text-align: center;
     letter-spacing: 2px;
-    transition: all 0.4s ease-out;
-    border-left: solid 10px;
-    
+    transition: all 0.6s ease-out;
+    border-radius: 5px;
 }
-.descri:hover{
-    color: var(--letra);
-    background-image: none;
+#descri1:hover{
+    background-image: url(../Imagens/foto.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: none;
+}
+#descri2:hover{
+    background-image: url(../Imagens/video.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: none;
+}
+#descri3:hover{
+    background-image: url(../Imagens/estudio.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: none;
 }
 
 
@@ -137,7 +157,7 @@ body {
     text-align: center;
     align-content: center;
 }
-.link {
+#link {
     text-align: center;
     align-content: center;
     width: 20%; height: 10%;
@@ -154,10 +174,11 @@ body {
 }
 @keyframes move{
     from{
-        border: solid 3px #3d3d3d 
+        border-radius: 50px 2px 2px 50px;
+        border: solid 3px #626262 
 }
 }
-.link:focus {
+#link:focus {
     outline: none;
     box-shadow: none; /* garante que não haja nenhum efeito de foco */
 }
@@ -233,7 +254,7 @@ body {
     font-size: 30px;
 }
 
-.link {
+#link {
     width: 30%; height: 10%;
     font-size: 20px;
     padding: 20px 40px 
@@ -268,7 +289,7 @@ body {
 @media (max-width:1080px ){
 
 body{
-    background-image: url(./Imagens/fundo-mobile.jpg);
+    background-color: #000000;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -291,8 +312,9 @@ body{
     letter-spacing: 20px;
 }
 #sub1{
-    font-size: 25px;
-    letter-spacing: 5px;
+    font-size: 30px;
+    letter-spacing: 25px;
+    font-weight: 600;
 }
 
 
@@ -311,7 +333,7 @@ body{
 
 
 #acess{
-    width: 95%; height: 1800px;
+    width: 95%; height: 2400px;
     background-color: var(--bkg-color1-mobile);
     border-radius: 30px;
     border: 0px;
@@ -319,70 +341,59 @@ body{
 }
 .grup{
     margin-left: auto; margin-right: auto;
-    width: 90%;
+    width: 100%; height: 600px;
     display: flex;
     align-items: center;
-    background-color: var(--bkg-color4-mobile);
     padding: 20px;
     border-radius: 5px;
 }
-.grid{
-    width: 40%; height: 300px;
-    background-size: contain;
-    background-position: center;
-}
-#grid1{
-    background-image: url(./Imagens/button/camera.png);
-    background-repeat: no-repeat;
-}
-#grid2{
-    background-image: url(./Imagens/button/drone1.png);
-    background-repeat: no-repeat;
-}
-#grid3{
-    background-image: url(./Imagens/button/design.png);
-    background-repeat: no-repeat;
-}
-
 .descri {
-    color: var(--bkg-color1-mobile);
-    width: 60%; height: auto;
-    font-size: 27px;
-    font-weight: 500;
-
-
+    background-image: url(../Imagens/info_mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: none;
+    width: 100%; height: 100%;
 }
-.descri:hover{
-    color: var(--letra);
+#descri1:hover{
+    background-image: url(../Imagens/foto_mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: none;
 }
-#descri1{
-    text-align: end;
+#descri2:hover{
+    background-image: url(../Imagens/video_mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: none;
 }
-#descri3{
-    text-align: end;
+#descri3:hover{
+    background-image: url(../Imagens/estudio_mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: none;
 }
 
 
 #page{
-    width: auto; height: auto;
-    display: flex;
-    align-content: center;
+    height: 250px;
 }
-.link {
-    margin-left: auto; margin-right: auto;
-    width: auto; height: 10%;
+#link {
+    width: 20%; height: 10%;
     font-size: 30px;
     padding: 15px 30px 15px 30px;
     background-color: var(--bkg-color4-mobile);
     animation: 0.9s linear 1s infinite alternate move;
-    border: solid 3px #626262;
+    border: solid 3px #3d3d3d;
     border-radius: 5px;
-    align-content: center;
-    text-align: center;
 }
 @keyframes move{
     from{
-        border: solid 3px #3d3d3d 
+        border-radius: 50px 2px 2px 50px;
+        border: solid 3px #626262 
 }
 }
 
@@ -432,7 +443,7 @@ body{
 
 #acess{
     align-content: center;
-    height: 1500px;
+    height: 2000px;
     border-radius: 30px;
 }
 
@@ -442,9 +453,9 @@ body{
 }
 
 #sub1{
-    font-size: 20px;
-    letter-spacing: 5px;
-    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 20px;
+    font-weight: 600;
 }
 
 #title1{
@@ -453,23 +464,15 @@ body{
 }
 
 .grup{
-    width: 90%;
+    height: 500px;
 }
 
-.descri { 
-    width: 90%;
-    font-size: 25px;
-    font-weight: 700;
-}
 
-.grid{
+#page{
     height: 200px;
 }
-
-
-
-.link {
-    height: 10%;
+#link {
+    width: 20%; height: 10%;
     font-size: 25px;
     padding: 15px 25px 15px 25px
 }
@@ -507,13 +510,14 @@ body{
     font-size: 30px;
 }
 #sub1{
-    font-size: 11px;
-    letter-spacing: 3px;
+    font-size: 15px;
+    letter-spacing: 15px;
+    font-weight: 600;
 }
 
 #acess{
     align-content: center;
-    height: 1400px;
+    height: 1200px;
     border-radius: 20px;
 }
 
@@ -522,16 +526,17 @@ body{
     width: 100%; height: 100px;
 }
 
-.descri {
-    
-    width: 90%;
-    font-size: 100%;
+.grup{
+    height: 300px;
 }
 
 
-.link {
-    height: 10%;
-    font-size: 13px;
+#page{
+    height: 100px;
+}
+#link {
+    width: 20%; height: 10%;
+    font-size: 100%;
     padding: 10px 25px 10px 25px
 }
 
@@ -574,9 +579,9 @@ body{
     letter-spacing: 3px;
 }
 #sub1{
-    font-size: 10px;
-    letter-spacing: 1px;
-    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 10px;
+    font-weight: 600;
 }
 
 
@@ -595,20 +600,20 @@ body{
     height: 150px;
 }
 .descri {
-    background-size: 200%;
-    background-position: center;
     width: 95%; 
+    background-size: 100%;
+    background-position: center;
     font-size: 13px;
     letter-spacing: 1px;
 }
 
-
-.link {
-    height: 5%;
-    font-size: 10px;
-    padding: 10px 15px 10px 15px;
-    align-content: center;
-    text-align: center;
+#page{
+    height: 100px;
+}
+#link {
+    width: 15%; height: 5%;
+    font-size: 70%;
+    padding: 10px 25px 10px 25px
 }
 
 
